@@ -1,0 +1,246 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:90vw;
+    height:99vh;
+    background-color: hsl(36, 100%, 99%);
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width:90%;
+    height:90%;
+    margin: auto;
+    
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    margin-bottom: 20px;
+   
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+ ul > li{
+    list-style-type: none;
+    padding-left: 20px;
+}
+ul > li > a{
+    text-decoration: none;
+    color:  hsl(233, 8%, 79%);
+}
+ 
+.one > img{
+    width: 700px;
+    height: 300px;
+}
+
+.grind{
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    grid-template-rows: repeat(1,3fr);
+    grid-template-areas: 
+    "one one two"
+     "three four two"
+    "five six seven";
+    gap:10px;
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+    background-color:  hsl(240, 100%, 5%);
+    margin-left: 20px;
+    
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+.items >  .item-1{
+   padding: 10px;
+   border-bottom:1px solid white;
+   margin:10px;
+   
+}
+.two > h2{
+    padding-top: 30px;
+    padding-left: 23px;
+    color: hsl(35, 77%, 62%);
+}
+.items >  .item-1 > h3{
+    color:hsl(36, 100%, 99%);
+    padding: 10px;
+}
+.items >  .item-1 > p{
+    color: hsl(233, 8%, 79%);;
+    padding: 10px;
+}
+.items >  .item-2 > p{
+    color: hsl(233, 8%, 79%);;
+    padding: 10px;
+}
+.items >  .item-2 > h3{
+    color:hsl(36, 100%, 99%);
+    padding: 10px;
+}
+.items >  .item-2{
+    border-bottom:none;
+    padding: 20px;
+}
+.three{
+    grid-area: three;
+    margin-top: -20px;
+    font-weight: bolder;
+    font-size: 18px;
+    color:hsl(240, 100%, 5%);
+}
+.four{
+    grid-area: four;
+    color:hsl(233, 8%, 79%);
+    margin-top: -20px;
+    font-size:16px;
+    font-weight: bold;
+    
+}
+.four > p{
+    text-align: center;
+    padding: 10px;
+}
+.four > p> button{
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+}
+.five{
+    grid-area: five;
+    display: flex;
+    /* gap: 10px; */
+    flex: 1;
+    /* margin-top: 20px;
+    padding: 20px; */
+}
+.five > img{
+    width: 300px;
+    height:180px;
+}
+.five > div > h3{
+    color: hsl(233, 8%, 79%);
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+}
+.five > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+.five > div > h4{
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.five > div > p{
+    color: hsl(233, 8%, 79%);
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
+
+
+.six{
+    grid-area: six;
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    margin-top: 20px;
+    padding: 20px;
+}
+.six > img{
+    width: 300px;
+    height:180px;
+}
+.six > div > h3{
+    color: hsl(233, 8%, 79%);
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+}
+.six > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+.six > div > h4{
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.six > div > p{
+    color: hsl(233, 8%, 79%);
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
+.seven{
+    grid-area: seven;
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    margin-top: 20px;
+    padding: 20px;
+}
+.seven > img{
+    width: 300px;
+    height:180px;
+}
+.seven > div > h3{
+    color: hsl(233, 8%, 79%);
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+}
+.seven > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+.seven > div > h4{
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.seven > div > p{
+    color: hsl(233, 8%, 79%);
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
